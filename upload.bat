@@ -1,0 +1,14 @@
+lcd dist
+cd /var/www/html/chat-sse/
+put index.html
+put favicon.ico
+put robots.txt
+put *.php
+cd js
+put js/*
+cd ../css
+put css/*
+cd ../img/icons
+put img/icons/*
+cd ../../fonts
+put fonts/*
